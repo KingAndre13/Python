@@ -1,0 +1,2 @@
+salarioFucionario = float(input('Digite o salário do funcionário: '))
+print('O salário que era de R${:.2f} com o aumento 15% vai ser de R${:.2f}'.format(salarioFucionario, salarioFucionario + salarioFucionario*0.15))
