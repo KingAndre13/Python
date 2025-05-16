@@ -1,3 +1,3 @@
-nome = input('Digite seu nome completo: ')
+nome = input('Digite seu nome completo: ').strip()
 i = nome.split().count(nome)
 print('Seu nome completo: {}\nPrimeiro nome: {}\nÚltimo nome: {}'.format(nome, nome.split()[0], nome.split()[i-1]))
