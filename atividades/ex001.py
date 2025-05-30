@@ -1,1 +1,1 @@
-print("Hello World!")
+print('\033[34mHello World!\033[m')
